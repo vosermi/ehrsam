@@ -38,7 +38,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<div class="navbar-brand">
-						<a href="#">Ehrsam Fenster</a>
+						<a href="#">Ehrsam Fenster Michi</a>
 					</div>
 				</div>
 				
@@ -73,7 +73,7 @@
 
 		<div class="container">
 			<div class="slogan">
-			
+			<img src="img/ehrsam_logo.png" height="30%" width="30%">
 				<!-- <h2>Ehrsam Fenster</h2> -->
 				<h4>Fenster, Läden, Haustüren, Balkonverglasungen, Wintergärten</h4>
 			</div>
