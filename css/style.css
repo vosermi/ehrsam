@@ -237,7 +237,7 @@ section p {
     padding: 0px 20px 0px 0px;
     color: #777;
     line-height: 1.8em;
-    margin: 1em 0 0 0;}
+    margin: 1em 0 2em 0;}
 
 .avatar {
   margin-top: 8px;
@@ -303,7 +303,7 @@ ul.company-social li {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: rgba(220, 55, 55, 0.9);
+  background: #0033FF;
   color: #fff; }
 
 .company-social a:hover {
@@ -532,3 +532,9 @@ strong {
 	}
 }
 /*# sourceMappingURL=style.css.map */
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
