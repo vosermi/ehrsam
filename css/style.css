@@ -18,7 +18,7 @@
   display: block; }
 
 .navbar-default {
-  background-color: #0066FF;
+  background-color: #0000FF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -159,7 +159,7 @@
 footer {
   text-align: center;
   padding: 50px 0;
-  background-color: #0066FF; }
+  background-color: #0000FF; }
 
 footer p {
   color: #f8f8f8; }
@@ -172,7 +172,7 @@ footer p {
   height: 70px;
   margin-top: 15px;
   padding: 5px 16px;
-  border: 2px solid #B02424;
+  border: 2px solid #0033FF;
   border-radius: 25%;
   font-size: 40px;
   color: #fff;
@@ -303,7 +303,7 @@ ul.company-social li {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #0033FF;
+  background: #0000FF;
   color: #fff; }
 
 .company-social a:hover {
@@ -479,8 +479,14 @@ strong {
 	}
 	.img-aboutus {
 		margin: 2em 0 0 0;
+
 	}
-	.row-padded {
+    .img-aboutus > a:hover {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .row-padded {
 		padding: 7px;
 	}
 }
@@ -537,4 +543,10 @@ strong {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.imgBox:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
 }
