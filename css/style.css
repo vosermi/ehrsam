@@ -342,9 +342,28 @@ strong {
 /****************************
  * Desktop and Tablet style *
  ****************************/
+@media (min-width: 1200px) {
+
+  .slogan img {
+    height: 30%;
+    width: 30%;
+  }
+}
+
 @media (max-width: 1200px) {
+
+  .slogan img{
+    height: 50%;
+    width: 50%;
+  }
+
+  .banner {
+    padding: 10% 0 0 0;
+ }
+
   .banner .slogan {
-    padding: 0% 0% 0% 0%; } }
+    padding: 0% 0% 0% 0%;  }
+  }
 	@media (max-width: 850px) {
   .navbar-default .navbar-nav > li > a {
     font-size: 14px; }
@@ -437,9 +456,11 @@ strong {
 
   .banner .slogan h4 {
     font-size: 18px; } }
+
 @media (max-width: 992px) {
   .banner .slogan {
     padding: 4% 0% 0% 0%; } }
+
 @media (max-width: 768px) {
   .navbar-default .navbar-nav > li > a {
     font-size: 12px; }
@@ -461,6 +482,7 @@ strong {
 		line-height: 37px;
 	}
 }
+
 @media (max-width: 640px) {
   .banner .slogan {
     padding: 0% 0% 0% 0%; }
@@ -490,7 +512,14 @@ strong {
 		padding: 7px;
 	}
 }
+
 @media (max-width: 480px) {
+
+  .slogan img{
+    height: 50%;
+    width: 50%;
+  }
+
   .banner .slogan {
     padding: 9% 0% 0%; }
 
@@ -500,6 +529,7 @@ strong {
   .banner .slogan h4 {
     font-size: 16px; } 
 }
+
 @media (max-width: 320px) {
 	.banner .slogan h2 {
 		font-size: 34px;
@@ -551,3 +581,4 @@ strong {
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
+
