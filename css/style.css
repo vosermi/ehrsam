@@ -543,6 +543,7 @@ strong {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 25px;
 }
 
 .imgBox:hover {
